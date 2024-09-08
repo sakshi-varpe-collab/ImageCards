@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 50%;
+    width: fit-content;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+
+.box{
+    height: 40vh;
+    width: 40vh;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 2vw;
+}
+
+.upperbox{
+    height: 70%;
+    width: 100%;
+    /* background-color: brown;  */
+}
+
+.upperbox img{
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.lowerbox{
+    height: 30%;
+    width: 100%;
+    /* background-color: white; */
+    padding: .2vw 0  .3vw .8vw; 
+}
+
+.lowerbox i{
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.lowerbox h1{
+    font-size: 1vw;
+    font-weight: 600;
+    color: green;
+    font-family: "Poppins", sans-serif;
+}
+
+.lowerbox h2{
+    font-size: .9vw;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.lowerbox h3{
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.lowerbox h4{
+    font-size: .9vw;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
